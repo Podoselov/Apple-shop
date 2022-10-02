@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "idProduct": 1,
+      "enabled": true,
+      "name": "",
+      "currentPrice": 100,
+      "previousPrice": 100,
+      "category": "",
+      "urlImg": "",
+      "imageUrls": [
+      ],
+      "quantity": 10,
+      "color": "red",
+      "productUrl": "",
+      "brand": ""
+    },
+    {
+      "idProduct": 2,
+      "enabled": true,
+      "name": "",
+      "currentPrice": 200,
+      "previousPrice": 200,
+      "category": "",
+      "urlImg": "",
+      "imageUrls": [
+      ],
+      "quantity": 10,
+      "color": "red",
+      "productUrl": "",
+      "brand": ""
+    },
+    {
+      "idProduct": 3,
+      "enabled": true,
+      "name": "",
+      "currentPrice": 100,
+      "previousPrice": 100,
+      "category": "",
+      "urlImg": "",
+      "imageUrls": [
+      ],
+      "quantity": 10,
+      "color": "red",
+      "productUrl": "",
+      "brand": ""
+    },
+    {
+      "idProduct": 4,
+      "enabled": true,
+      "name": "",
+      "currentPrice": 200,
+      "previousPrice": 200,
+      "category": "",
+      "urlImg": "",
+      "imageUrls": [
+      ],
+      "quantity": 10,
+      "color": "red",
+      "productUrl": "",
+      "brand": ""
+    },
+    {
+      "idProduct": 5,
+      "enabled": true,
+      "name": "",
+      "currentPrice": 300,
+      "previousPrice": 300,
+      "category": "",
+      "urlImg": "",
+      "imageUrls": [
+      ],
+      "quantity": 10,
+      "color": "red",
+      "productUrl": "",
+      "brand": ""
+    },
+    {
+      "idProduct": 6,
+      "enabled": true,
+      "name": "",
+      "currentPrice": 200,
+      "previousPrice": 200,
+      "category": "",
+      "urlImg": "",
+      "imageUrls": [
+      ],
+      "quantity": 10,
+      "color": "red",
+      "productUrl": "",
+      "brand": ""
+    }
+  ]
+}

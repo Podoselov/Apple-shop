@@ -1,0 +1,98 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:@typescript-eslint/recommended",
+        "plugin:react/recommended",
+        "plugin:import/errors",
+        "plugin:import/warnings",
+        "plugin:import/typescript",
+        "airbnb",
+        "prettier"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "react-hooks",
+        "@typescript-eslint",
+        "prettier"
+    ],
+    "rules": {
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "react/jsx-curly-brace-presence": [
+            "off",
+            {
+                "props": "never",
+                "children": "never"
+            }
+        ],
+        "import/extensions": [
+            "error",
+            "ignorePackages",
+            {
+                "": "never",
+                "js": "never",
+                "jsx": "never",
+                "ts": "never",
+                "tsx": "never"
+            }
+        ],
+        "react/jsx-indent": "off",
+        "react/jsx-filename-extension": [
+            2,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx",
+                    ".ts",
+                    ".tsx"
+                ]
+            }
+        ],
+        "no-trailing-spaces": [
+            "error",
+            {
+                "skipBlankLines": true
+            }
+        ],
+        "jest/prefer-expect-assertions": "off",
+        "jest/require-hook": "off",
+        "no-return-assign": 0,
+        "eol-last": 0,
+        "semi": 0,
+        "camelcase": 0,
+        "object-curly-spacing": 0,
+        "comma-dangle": 0,
+        "arrow-parens": "off",
+        "object-curly-newline": "off",
+        "no-mixed-operators": "off",
+        "arrow-body-style": "off",
+        "function-paren-newline": "off",
+        "no-plusplus": "off",
+        "space-before-function-paren": 0,
+        "no-param-reassign": "off",
+        "react/no-unused-prop-types": "off",
+        "import/prefer-default-export": "off",
+        "default-param-last": "off",
+        "react/function-component-definition": "off",
+        "no-unused-vars": "off",
+        "no-shadow": "off",
+        "implicit-arrow-linebreak": "off",
+        "react/jsx-props-no-spreading": "off",
+        "import/no-unresolved": "off",
+        "react/jsx-one-expression-per-line": "off",
+        "react/jsx-wrap-multilines": "off",
+        "operator-linebreak": "off",
+        "react/require-default-props": "off"
+    }
+}
